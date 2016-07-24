@@ -32,7 +32,7 @@ def square_multiply(operand, exponent, modulo):
 def encode():
 	message = raw_input("Please enter message:\n");
 	ascii_message = long("".join([("000"+str(ord(elem)))[-3:] for elem in message]));
-	print square_multiply(ascii_message, e, n);
+	print square_multiply(ascii_message, martin_e, martin_n);
 
 def decode():
 	cipher = raw_input("Please enter cipher:\n");
